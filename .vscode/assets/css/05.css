@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.menu,
+.menu2 {
+  background-color: beige;
+  width: 200px;
+  list-style-type: "🐴";
+  list-style-position: inside;
+  padding: 0;
+}
+.aktif a,
+.aktif {
+  background-color: dimgrey;
+  color: white;
+}
+
+.menu a,
+.menu2 a {
+  text-decoration: none;
+}
+.menu2 li:hover {
+  background-color: gray;
+}
+.menu2 li:hover a {
+  background-color: gray;
+  color: white;
+}
