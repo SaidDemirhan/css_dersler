@@ -1,0 +1,26 @@
+thead,
+tfoot {
+  background-color: darkslategrey;
+  color: white;
+}
+tbody {
+  background-color: gainsboro;
+}
+.satir {
+  background-color: rgb(153, 150, 150);
+}
+.orta {
+  text-align: center;
+}
+.sag {
+  text-align: right;
+}
+.alisveris,
+.odeme {
+  background-color: orangered;
+  color: White;
+}
+.sagdan {
+  background-color: white;
+  text-align: right;
+}
