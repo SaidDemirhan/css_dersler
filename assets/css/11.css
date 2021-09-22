@@ -1,0 +1,19 @@
+body {
+  background-image: url(../img/arkaplan.png);
+}
+
+.arkaplan {
+  width: 100%;
+  height: 300;
+  background-color: url(../img/right-arrow.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.arkaplan2 {
+  width: 100%;
+  height: 300;
+  background-color: url(../img/image-05.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

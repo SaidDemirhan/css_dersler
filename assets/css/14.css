@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.ustmenu {
+  background-color: gray;
+}
+
+.header {
+  background-color: beige;
+  position: sticky;
+  top: 0;
+}
+.header div,
+.ustmenu div {
+  display: inline-block;
+  width: 45, 5%;
+  padding: 5px;
+  color: aliceblue;
+}
+.header .menu,
+.ustsagmenu {
+  text-align: right;
+}
+.ustsagmenu {
+  text-align: right;
+}
+.ustmenu a {
+  color: aliceblue;
+  text-decoration: none;
+}

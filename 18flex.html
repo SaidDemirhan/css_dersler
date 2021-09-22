@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      .kutu {
+        width: 70px;
+        height: 70px;
+
+        background-color: coral;
+        border: 1px solid blue;
+        padding: 5px;
+      }
+      .kutular {
+        display: flex;
+        flex-direction: row; /*satir da olmasi icin*/
+        flex-wrap: wrap; /*kucultunce boyut bozulmamamsi icin*/
+        justify-content: space-between; /*aralara bosluk icin*/
+        background-color: gray;
+        height: 300px;
+        align-items: stretch;
+      }
+      .k1 {
+        flex: 1;
+      }
+      .k2 {
+        flex: 3;
+      }
+      .k3 {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kutular">
+      <div class="kutu k1">1</div>
+      <div class="kutu k2">2</div>
+      <div class="kutu k3">3</div>
+    </div>
+  </body>
+</html>

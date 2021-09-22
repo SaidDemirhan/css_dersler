@@ -1,0 +1,18 @@
+.menu ul {
+  list-style: none; /*basindaki noktalari kaldirir*/
+}
+.menu li {
+  display: inline-block; /*yanyana getirir ve block elemente cevirmis oluyor*/
+}
+.menu a {
+  text-decoration: none; /* alt cizgilrerkalkti*/
+  background-color: deeppink;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 10px; /* kenarlari yuvarladik*/
+}
+.menu a:hover {
+  /*üzerine gelinince rengi degisir.*/
+  background-color: red;
+  color: aliceblue;
+}
